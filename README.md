@@ -1,4 +1,4 @@
-# AdminTiendasTech
+# AdminTiendasTech SANA
 
 Desarrollar una aplicación web gratuita, hospedada en Microsoft Azure, que permita a los tenderos gestionar su inventario, registrar ventas, y almacenar información clave (productos, proveedores, ventas) para facilitar la toma de decisiones informadas sobre qué comprar y cuándo reabastecer sus inventarios. La aplicación estará construida utilizando .NET como plataforma de desarrollo, aprovechando las capacidades de la nube de Azure para asegurar escalabilidad, disponibilidad y seguridad en el manejo de los datos.
 Arquitectura de la Solución en Azure:
