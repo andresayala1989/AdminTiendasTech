@@ -1,0 +1,14 @@
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\SANA.Shop.BLL.dll.config
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\SANA.Shop.BLL.dll
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\SANA.Shop.BLL.pdb
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\EntityFramework.dll
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\SANA.Shop.DAL.dll
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\SANA.Shop.DAL.pdb
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\EntityFramework.xml
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\obj\Release\SANA.Shop.BLL.csproj.AssemblyReference.cache
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\obj\Release\SANA.Shop.BLL.csproj.CoreCompileInputs.cache
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\obj\Release\SANA.Shop.BLL.csproj.CopyComplete
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\obj\Release\SANA.Shop.BLL.dll
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.BLL\obj\Release\SANA.Shop.BLL.pdb

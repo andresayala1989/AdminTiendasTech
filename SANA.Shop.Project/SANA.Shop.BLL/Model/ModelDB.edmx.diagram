@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="98bf0d75ae8d4ad4b2ff40192f62fd48" Name="Diagram1">
+        <EntityTypeShape EntityType="SanaShopModel.Categories" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.CategoryProduct" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.Customers" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.OrderCategoryProduct" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.Orders" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.Products" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.TypeCustomers" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanaShopModel.Users" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="SanaShopModel.FK_CategoryProduct_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="SanaShopModel.FK_CategoryProduct_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="SanaShopModel.FK_OrderCategoryProduct_CategoryProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="SanaShopModel.FK_Customers_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="SanaShopModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="SanaShopModel.FK_OrderCategoryProduct_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="SanaShopModel.FK_Orders_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

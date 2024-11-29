@@ -1,0 +1,6 @@
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.DAL\bin\Release\SANA.Shop.DAL.dll
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.DAL\bin\Release\SANA.Shop.DAL.pdb
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.DAL\obj\Release\SANA.Shop.DAL.csproj.AssemblyReference.cache
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.DAL\obj\Release\SANA.Shop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.DAL\obj\Release\SANA.Shop.DAL.dll
+C:\Users\jaayala\source\repos\SANA.Shop.Project\SANA.Shop.DAL\obj\Release\SANA.Shop.DAL.pdb

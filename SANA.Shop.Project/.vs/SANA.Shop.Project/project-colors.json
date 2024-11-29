@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ac925ec-b8cd-4441-9a62-ae329c702e93": {
+      "ProjectGuid": "3ac925ec-b8cd-4441-9a62-ae329c702e93",
+      "DisplayName": "SANA.Shop.UI",
+      "ColorIndex": 0
+    },
+    "22ef2839-9e65-4167-b8df-7387ec5a1774": {
+      "ProjectGuid": "22ef2839-9e65-4167-b8df-7387ec5a1774",
+      "DisplayName": "SANA.Shop.BLL",
+      "ColorIndex": 1
+    },
+    "d4e79452-710e-47b6-ab6b-459f9ce38b64": {
+      "ProjectGuid": "d4e79452-710e-47b6-ab6b-459f9ce38b64",
+      "DisplayName": "SANA.Shop.DAL",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "97f2d3ec-10a2-4efa-86fd-088629ba8f9a": {
+      "ProjectGuid": "97f2d3ec-10a2-4efa-86fd-088629ba8f9a",
+      "DisplayName": "SANA.Shop.UI.Tests",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

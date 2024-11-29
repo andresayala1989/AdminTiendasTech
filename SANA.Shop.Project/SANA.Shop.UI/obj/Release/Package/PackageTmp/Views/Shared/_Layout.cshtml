@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Shop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>&nbsp;</li>
+                    <li style="color: white; display: block; padding: 10px 15px;">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="bdStatus" id="Radios1" value="memory" checked=@(ViewBag.sesion == "true")>
+                            <label class="form-check-label" for="exampleRadios1">
+                                In-Memory
+                            </label>
+                        </div>
+                    </li>
+                    <li style="color: white; display: block; padding: 10px 15px;">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="bdStatus" id="Radios2" value="bd" checked=@(ViewBag.sesion == "false")>
+                            <label class="form-check-label" for="exampleRadios2">
+                                BD SQL Server
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - SANA COMMERCE</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+
+    var urlsesion = "@Url.Action("Sesion", "Products")";
+
+
+        $(document).ready(function () {
+            $('input[type=radio][name=bdStatus]').change(function () {
+                var flag = false;
+                if (this.value == 'memory') {
+                    flag = true;
+                }
+                if (this.value == 'bd') {
+                    flag = false;
+                }
+                $.ajax({
+                    type: 'GET',
+                    url: urlsesion, // we are calling json method
+                    dataType: 'json',
+                    data: { flag: flag },
+                    success: function (response) {
+                        if (response) {
+                            alert('Store was changed to Memory');
+                        } else {
+                            alert('Store was changed to BD');
+                        }
+                    },
+                    error: function (ex) {
+                        console.log('Failed to retrieve options.' + ex);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
